@@ -5,74 +5,94 @@ body{
 }
 .container{
     background-color: rgb(250, 250, 250);
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(255, 255, 255);
 }
-.quemsou{
+/* .quemsou{
     display: flex;
     flex-direction: row;
+    border-bottom: 2px solid white;
     
-}
+} */
 
 #texto-a{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-#imgp{
-
-    border-top-left-radius: 15px;
-    max-width: 100%;
-    max-height: 100%;
+.imgp {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
-#texto-img{
+.s-img img{
+    max-width: 100%;
+    max-height: 100%;
+    transform: perspective(5.1);
+
+}
+.s-img2 img{
     width: 100%;
-    max-height: 20%;
-    border-bottom-right-radius: 15px;
+    height: 10%;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgp img{
+    border-radius: 50%;
+    max-width: 10%;
+    max-height: 10%;
+    position: relative;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 #h3{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding-top: 10px;
     text-align: center;
     font-size: 30px;   
 }
 
 #p1 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     text-shadow: 20px;
     font-weight: bold;
 }
-.sessao{
-    border-top: 2px solid;
+.pure-g{
+    border-bottom: 2px solid white;
     padding-bottom: 15px;
-    border-bottom: 2px solid;
-    background-image: url(./img/laptop-2620118_1280.jpg);
-    background-size: 100%;
+    border-bottom: 2px solid white;
+    background-color: rgb(253, 253, 253);
    
 }
 
 h2 {
     padding-left: 5px;
     font-weight: bold;
-    color: rgb(8, 4, 243);
+    color: rgb(0, 0, 0);
 }
 
 h4 {
     padding-left: 15px;
     font-weight: bold;
-    color: rgb(8, 4, 243);
+    color: rgb(0, 0, 0);
 }
 li {
     list-style-type: none;
     font-weight: bold;
-    color: rgb(8, 4, 243);
+    color: rgb(240, 240, 240);
   }
 .li-a {
-    color: rgb(8, 4, 243);
+    color: rgb(2, 2, 2);
     text-decoration: none;
     font-weight: bold;
 }
